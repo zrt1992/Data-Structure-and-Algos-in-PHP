@@ -47,7 +47,7 @@ int main() {
                 break;
             case 4:
                 mid = findMid(front);
-                cout << mid->data;
+                cout <<"\nMid is "<< mid->data<<"\n";
 
 
 
