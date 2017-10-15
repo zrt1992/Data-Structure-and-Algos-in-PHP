@@ -25,12 +25,14 @@ int main(int argc, char** argv) {
 }
 int addNumbers(int n)
 {
+    //good efficient way
     if(n != 0)
         return n + addNumbers(n-1);
     else
         return n;
 }
 int sum (int i,int n){
+    // more space complexity it has
     int total=0;
     if(i<=n) {
         total=i+sum(i+1,n);
