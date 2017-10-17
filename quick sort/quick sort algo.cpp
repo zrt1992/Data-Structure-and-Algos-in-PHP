@@ -32,7 +32,7 @@ int quicksort(int a[],int p,int r){
         quicksort(a,q+1,r);
     }
 }
-int partition(int a[],int p,int r){
+int partition(int a[],int p,int r){ //this is the key for good performance
     int x=a[r];
     int temp=0;
     int i=p-1;

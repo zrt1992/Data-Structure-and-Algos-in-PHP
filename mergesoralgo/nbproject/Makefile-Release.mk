@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/merge\ sort\ algo.o
 
 
 # C Compiler Flags
@@ -62,10 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/mergesoralgo.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/mergesoralgo ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/main.o: main.cpp 
+.NO_PARALLEL:${OBJECTDIR}/merge\ sort\ algo.o
+${OBJECTDIR}/merge\ sort\ algo.o: merge\ sort\ algo.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/merge\ sort\ algo.o merge\ sort\ algo.cpp
 
 # Subprojects
 .build-subprojects:
