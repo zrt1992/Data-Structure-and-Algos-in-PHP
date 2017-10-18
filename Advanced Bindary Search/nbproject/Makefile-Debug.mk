@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o
+	${OBJECTDIR}/BinarySeatchOnShiftedArray.o
 
 
 # C Compiler Flags
@@ -56,17 +56,16 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ressurcsion.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/advanced_bindary_search.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ressurcsion.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/advanced_bindary_search.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ressurcsion ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/advanced_bindary_search ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-.NO_PARALLEL:${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o
-${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o: sum\ of\ number\ using\ recurssion.cpp 
+${OBJECTDIR}/BinarySeatchOnShiftedArray.o: BinarySeatchOnShiftedArray.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o sum\ of\ number\ using\ recurssion.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/BinarySeatchOnShiftedArray.o BinarySeatchOnShiftedArray.cpp
 
 # Subprojects
 .build-subprojects:
@@ -74,7 +73,7 @@ ${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o: sum\ of\ number\ using\ recur
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ressurcsion.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/advanced_bindary_search.exe
 
 # Subprojects
 .clean-subprojects:

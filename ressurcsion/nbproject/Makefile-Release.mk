@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o
 
 
 # C Compiler Flags
@@ -62,10 +62,11 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ressurcsion.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ressurcsion ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/main.o: main.cpp 
+.NO_PARALLEL:${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o
+${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o: sum\ of\ number\ using\ recurssion.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/sum\ of\ number\ using\ recurssion.o sum\ of\ number\ using\ recurssion.cpp
 
 # Subprojects
 .build-subprojects:
