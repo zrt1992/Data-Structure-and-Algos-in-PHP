@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=data Structures
+PROJECTNAME=finding middle of linked list
 
 # Active Configuration
 DEFAULTCONF=Debug

@@ -13,18 +13,37 @@ using namespace std;
 /*
  * 
  */
+int recursive(int n,int index,int b[]){
+    if(n==b[index] || index==0) {
+        if(n==b[index] )return  index; 
+        if(index==0) return 33;
+        
+    }   
+    else{
+        //cout<<'lol';
+       return recursive(n,index-1,b);
+    }
+    
+}
+int fabonaci(int n){
+    
+    if(n==0) return 0;
+    if(n==1) return 1;
+    return fabonaci(n-1)+fabonaci(n-2);
+}
 int add(int n){
     if(n==0 || n==1) {
         if(n==0) return 0;
         if(n==1) return 1;
     }else{
-        return add(n-2)+add(n-1);
+        cout<<n<<" ";
+        return add(n-2)+add(n-1); 
+       
     }
 }
 int main(int argc, char** argv) {
-    for(int i=0;i<10;i++){
-    cout<<add(i)<<" "; //0+1+1+2+3+5
-    }
+    int a[]={1,4,5,6,7,6};
+    cout<<fabonaci(4);
     return 0;
-}
+    }
 
