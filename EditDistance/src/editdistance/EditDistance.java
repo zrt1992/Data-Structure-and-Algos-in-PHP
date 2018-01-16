@@ -74,11 +74,11 @@ public class EditDistance {
     }
     public static void main(String args[])
     {
-        String str1 = "txx";
-        String str2 = "tx";
+        String str1 = "txasdadasdaddssdsdsdsasdsdfsdfsdfsdfsdfsdfasdasda";
+        String str2 = "wugasdasdashsdfsdfsdfssdfsdfsdfsdfsdfsfsdfsdfsdfdf"; 
   
-        //System.out.println( editDist( str1 , str2 , str1.length(), str2.length()) );
-        System.out.println( editDistDP( str1 , str2 , str1.length(), str2.length()) );
+       //System.out.println( editDist( str1 , str2 , str1.length(), str2.length()) );
+       System.out.println( editDistDP( str1 , str2 , str1.length(), str2.length()) );
         
     }
 }
