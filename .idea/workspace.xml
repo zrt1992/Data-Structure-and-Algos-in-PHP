@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79a301ce-12dd-48c7-81fc-7139aca9b7a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design_pattern/FactoryPattern.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/Singelton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/static_variable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_script/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_script/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_script/example.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_script/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_script/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session_script/usesless.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designpattern" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session" beforeDir="false" />
-    </list>
+    <list default="true" id="79a301ce-12dd-48c7-81fc-7139aca9b7a7" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +36,11 @@
       </file>
       <file leaf-file-name="config.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/session_script/config.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
@@ -185,6 +177,10 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/session_script" />
+      <recent name="$PROJECT_DIR$/design_pattern" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sessions" />
     </key>
@@ -225,10 +221,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65805000" />
+    <option name="totallyTimeSpent" value="66117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.328594" />
@@ -592,7 +589,11 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/session_script/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
