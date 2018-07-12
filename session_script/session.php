@@ -36,14 +36,12 @@ class Session
         // Instantiate new Database object
         $this->db = new Database;
         if (isset($_COOKIE['PHPSESSID'])) {
-            echo $_COOKIE["PHPSESSID"];
+            $_COOKIE["PHPSESSID"];
             $this->php_session_id = $_COOKIE["PHPSESSID"];
             $query = "SELECT * FROM session WHERE id='$this->php_session_id' OR (NOW()- created)<$this->session_lifespan";
-            echo "<br>" . $query;
             $this->db->query($query);
             $this->db->execute();
             if ($this->db->rowCount() == 0) {
-                echo 'called';
                 $maxlifetime = $this->session_lifespan;
                 $query = "DELETE FROM session WHERE id ='$this->php_session_id' OR (NOW() - created) >$maxlifetime";
                 $this->db->query($query);
@@ -96,9 +94,8 @@ class Session
 
     public function Login($strUsername, $strPlainPassword)
     {
-        echo 'login';
         $strMD5Password = md5($strPlainPassword . $this->salt);
-        echo $stmt = "delete  FROM session where (NOW()-created) > $this->session_lifespan";
+        $stmt = "delete  FROM session where (NOW()-created) > $this->session_lifespan";
         $this->db->query($stmt);
         $this->db->execute();
         $stmt = "select * FROM user WHERE username = '$strUsername' AND md5_pw = '$strMD5Password'";
@@ -125,7 +122,7 @@ class Session
 
     public function _close()
     {
-        echo "<br><br> this is close <br><br>";
+
         if ($this->db->close()) {
             return true;
         }
@@ -141,7 +138,7 @@ class Session
 
     public function _destroy($id)
     {
-        echo "<br><br> this is destroy <br><br>";
+
 
         // Set query
         $this->db->query('DELETE FROM session WHERE id = :id');
