@@ -1,0 +1,25 @@
+ DB::transaction(function () {
+            try {
+
+
+                $user = new User;
+                $user->name = 'daufalut';
+                $user->email = "myemllaikl@emaasil.com";
+                $user->password = '$2y$10$mDrJYPHy5QUy/0gzBGHgSuP8e/NMS3VZjY9z9eipQUA/AedBiftEW';
+                $user->save();
+                $user->id;
+                $question = new \App\Question;
+                $question->title = "asd";
+                $question->description = "asd";
+                $question->user_d = $user->id;
+                $question->save();
+
+                DB::commit();
+            }
+            catch (\Exception $e) {
+                DB::rollback();
+                echo $e;
+                // something went wrong
+            }
+            /* Transaction successful. */
+        });
