@@ -1,5 +1,7 @@
 <?php
 
+use zulfi;
+
 class Student
 {
     protected $name = "zulfiqar";
@@ -30,9 +32,12 @@ class StudentCourse extends Student
     }
 }
 
-$student = new StudentCourse("zulfiqar", "16", ['physics' => '14', 'english' => '20']);
-$my_courses = $student->returnStudent();
-echo '<pre>';
-print_r($my_courses);
+//$student = new StudentCourse("zulfiqar", "16", ['physics' => '14', 'english' => '20']);
+//$my_courses = $student->returnStudent();
+//echo '<pre>';
+//print_r($my_courses);
+
+$student=new zulfi\Student();
+$student->getStudentName();
 
 

@@ -6,13 +6,13 @@
  * Time: 1:57 PM
  */
 
-namespace student;
+namespace student1;
 
 
 class Student
 {
 
-    function __construct($name)
+    function __construct()
     {
 
     }
@@ -20,7 +20,7 @@ class Student
     public function getStudentName()
     {
 
-        return "get student class";
+        return "get student class 1";
 
     }
 
