@@ -1,0 +1,11 @@
+{
+  "autoload":{
+    "psr-4": {
+      "Codecourse\\": "app/Codecourse"
+    }
+    
+  },
+  "require": {
+    "symfony/http-foundation": "^4.2"
+  }
+}
