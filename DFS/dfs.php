@@ -9,12 +9,14 @@ class Graph{
     public function __construct(){
 
         $this->graph = array(
-            array(0, 1, 1, 0, 0, 0),
-            array(1, 0, 0, 1, 0, 0),
-            array(1, 0, 0, 1, 1, 1),
-            array(0, 1, 1, 0, 1, 0),
-            array(0, 0, 1, 1, 0, 1),
-            array(0, 0, 1, 0, 1, 0)
+            array(0, 1, 1, 0, 0, 0, 0, 0), //0
+            array(1, 0, 0, 1, 0, 0, 1, 0), //1
+            array(1, 0, 0, 1, 1, 1, 0, 0), //2
+            array(0, 1, 1, 0, 1, 0, 0, 0), //3
+            array(0, 0, 1, 1, 0, 1, 0, 0), //4
+            array(0, 0, 1, 0, 1, 0, 0, 0), //5
+            array(0, 0, 0, 0, 0, 0, 0, 1), //6
+            array(0, 0, 0, 0, 0, 0, 0, 0) //7
         );
 
         $this->len = count($this->graph);
