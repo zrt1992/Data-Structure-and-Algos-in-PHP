@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a301ce-12dd-48c7-81fc-7139aca9b7a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/splstack/splstack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stackimplementation/Stack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopologicalSort/TopologicalSort.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS/dfs.php" beforeDir="false" afterPath="$PROJECT_DIR$/DFS/dfs.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/splstack/splstack.php">
+        <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DFS/dfs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DFS/dfs.php">
+        <entry file="file://$PROJECT_DIR$/TopologicalSort/TopologicalSort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="290">
+              <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -60,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PSR_standard class/index.php" />
         <option value="$PROJECT_DIR$/PSR_standard/index.php" />
         <option value="$PROJECT_DIR$/designpattern/FactoryPattern.php" />
         <option value="$PROJECT_DIR$/designpattern/Singelton.php" />
@@ -111,6 +116,7 @@
         <option value="$PROJECT_DIR$/DFS/dfs.php" />
         <option value="$PROJECT_DIR$/stackimplementation/Stack.php" />
         <option value="$PROJECT_DIR$/splstack/splstack.php" />
+        <option value="$PROJECT_DIR$/TopologicalSort/TopologicalSort.php" />
       </list>
     </option>
   </component>
@@ -148,6 +154,16 @@
             <path>
               <item name="php_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="php_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="DFS Adjency List" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -262,15 +278,16 @@
       <workItem from="1553173583651" duration="309000" />
       <workItem from="1553173936185" duration="785000" />
       <workItem from="1553187753945" duration="1352000" />
-      <workItem from="1553223872655" duration="1922000" />
+      <workItem from="1553223872655" duration="4751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172750000" />
+    <option name="totallyTimeSpent" value="175579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -565,17 +582,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/splstack/splstack.php">
+    <entry file="file://$PROJECT_DIR$/DFS/dfs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="215">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFS/dfs.php">
+    <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopologicalSort/TopologicalSort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
         </state>
       </provider>
     </entry>
