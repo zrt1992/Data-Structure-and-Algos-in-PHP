@@ -11,9 +11,11 @@ class Graph
         $this->stack = new SplQueue();
         $this->graph = array(
             'A' => array('B', 'S'),
-            'B' => array('A'),
+            //'B' => array('A'),
+            'B' => [],
             'C' => array('D','E','F','S'),
             'D' =>array('C'),
+            'D' => [],
             'E' => array('C', 'H'),
             'F' => array('C', 'G'),
             'G' => array( 'F', 'H','S'),
