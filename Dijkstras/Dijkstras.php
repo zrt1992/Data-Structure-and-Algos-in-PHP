@@ -105,6 +105,7 @@ class Dijkstras
 
 }
 
+
 $dj = new Dijkstras();
 $dj->initializeDistances('A');
 $dj->calMinVals('A');
