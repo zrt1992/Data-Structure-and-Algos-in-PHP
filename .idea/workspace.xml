@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a301ce-12dd-48c7-81fc-7139aca9b7a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/BinomialCofficent/binomialCoff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KPM-alogrithm/kpmalgo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N-level-cat/nlevelcat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tile Problem/Tile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/public_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BreathFirstSearch/BreadthFirstSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/BreathFirstSearch/BreadthFirstSearch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all sub sets using recirssion/all sub sets.php" beforeDir="false" afterPath="$PROJECT_DIR$/all sub sets using recirssion/all sub sets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +43,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="630">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -162,8 +152,8 @@
         <option value="$PROJECT_DIR$/TopologicalSort/TopologicalSort.php" />
         <option value="$PROJECT_DIR$/subsetsum/subsetsum.php" />
         <option value="$PROJECT_DIR$/BreathFirstSearch/BreadthFirstSearch.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -353,12 +343,12 @@
       <workItem from="1555062669288" duration="1025000" />
       <workItem from="1555136644783" duration="330000" />
       <workItem from="1555169182707" duration="836000" />
-      <workItem from="1556451911736" duration="2680000" />
+      <workItem from="1556451911736" duration="3112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210131000" />
+    <option name="totallyTimeSpent" value="210563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -699,17 +689,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="630">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
