@@ -34,7 +34,7 @@ class Graph
 
     function topologicalSort($vertex)
     {
-        echo $vertex . " ";
+       // echo $vertex . " ";
         $this->visited[$vertex] = 1;
         foreach ($this->graph[$vertex] as $key => $row) {
 
