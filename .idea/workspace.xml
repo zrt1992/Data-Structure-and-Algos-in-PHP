@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79a301ce-12dd-48c7-81fc-7139aca9b7a7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/packagetest/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subsetsum/subsetsum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinomialCofficent/binomialCoff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KPM-alogrithm/kpmalgo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/N-level-cat/nlevelcat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tile Problem/Tile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/public_html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php_practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BreathFirstSearch/BreadthFirstSearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/BreathFirstSearch/BreadthFirstSearch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" beforeDir="false" afterPath="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dijkstras/Dijkstras.php" beforeDir="false" afterPath="$PROJECT_DIR$/Dijkstras/Dijkstras.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TopologicalSort/TopologicalSort.php" beforeDir="false" afterPath="$PROJECT_DIR$/TopologicalSort/TopologicalSort.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all sub sets using recirssion/all sub sets.php" beforeDir="false" afterPath="$PROJECT_DIR$/all sub sets using recirssion/all sub sets.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/Dijkstras/Dijkstras.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -50,16 +53,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="245">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -159,8 +162,8 @@
         <option value="$PROJECT_DIR$/TopologicalSort/TopologicalSort.php" />
         <option value="$PROJECT_DIR$/subsetsum/subsetsum.php" />
         <option value="$PROJECT_DIR$/BreathFirstSearch/BreadthFirstSearch.php" />
-        <option value="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php" />
       </list>
     </option>
   </component>
@@ -350,12 +353,12 @@
       <workItem from="1555062669288" duration="1025000" />
       <workItem from="1555136644783" duration="330000" />
       <workItem from="1555169182707" duration="836000" />
-      <workItem from="1556451911736" duration="2572000" />
+      <workItem from="1556451911736" duration="2680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210023000" />
+    <option name="totallyTimeSpent" value="210131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -692,14 +695,7 @@
     <entry file="file://$PROJECT_DIR$/Dijkstras/Dijkstras.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -707,6 +703,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DFS Adjency List/Dfs adjency list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>

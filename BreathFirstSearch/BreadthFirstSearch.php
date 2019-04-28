@@ -32,7 +32,7 @@ class Graph
         print_r($this->visited);
     }
 
-    function topologicalSort($vertex)
+    function bfs($vertex)
     {
         echo $vertex. " ";
         $this->visited[$vertex] = 1;
@@ -42,7 +42,7 @@ class Graph
                 $this->visited[$row] = 1;
             }
         }
-        if(!$this->stack->isEmpty()) $this->topologicalSort($this->stack->dequeue());
+        if(!$this->stack->isEmpty()) $this->bfs($this->stack->dequeue());
 
     }
 
@@ -52,5 +52,5 @@ class Graph
 
 $g = new Graph();
 $g->init();
-$g->topologicalSort('A');
+$g->bfs('A');
 
