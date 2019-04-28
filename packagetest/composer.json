@@ -1,0 +1,7 @@
+{
+    "name": "a/a",
+    "description": "asda",
+    "require": {
+        "zulfi/zulfi": "^1.0"
+    }
+}

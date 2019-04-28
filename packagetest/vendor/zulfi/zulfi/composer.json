@@ -1,0 +1,16 @@
+{
+    "name": "zulfi/zulfi",
+    "description": "this is my firt package",
+    "authors": [
+        {
+            "name": "zulfiqar tariq",
+            "email": "zulfiqar_tariq@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0a313c28f4b9aacd28b5d8e1a46a90e3",
+    "packages": [
+        {
+            "name": "zulfi/zulfi",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zrt1992/mypackage.git",
+                "reference": "663c38388de67b88e7d554b4d4f4d56c58cc1461"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zrt1992/mypackage/zipball/663c38388de67b88e7d554b4d4f4d56c58cc1461",
+                "reference": "663c38388de67b88e7d554b4d4f4d56c58cc1461",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "zulfiqar tariq",
+                    "email": "zulfiqar_tariq@hotmail.com"
+                }
+            ],
+            "description": "this is my firt package",
+            "time": "2019-04-26T16:52:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
